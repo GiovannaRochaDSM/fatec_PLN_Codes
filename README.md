@@ -2,11 +2,13 @@
 Este repositório é organizado em aulas práticas que abordam conceitos fundamentais e avançados de processamento de linguagem natural. Cada aula contém exemplos detalhados com implementações práticas para aprendizado e aplicação em projetos reais. 
 
 ### **Divisões das Aulas**
-1. **Aula 01 e 02:** Introdução à sintaxe com spaCy.
-2. **Aula 03:** Uso de NLTK e análise de corpora.
-3. **Aula 04:** Técnicas de limpeza e pré-processamento textual.
-4. **Aula 05:** Vetorização de texto com Bag of Words e TF-IDF.
-5. **Aula 06:** Representação de palavras com Word2Vec e GloVe.
+- **Aula 01 e 02:** Introdução à sintaxe com spaCy.
+- **Aula 03:** Uso de NLTK e análise de corpora.
+- **Aula 04:** Técnicas de limpeza e pré-processamento textual.
+- **Aula 05:** Vetorização de texto com Bag of Words e TF-IDF.
+- **Aula 06:** Representação de palavras com Word2Vec e GloVe.
+- **Aula 07:** Modelagem de Tópicos com LDA.
+- **Aula 08:** Introdução ao Machine Learning com TF-IDF, Naive Bayes e SVM.
 
 ---
 
@@ -82,3 +84,25 @@ Para executar os códigos:
 
 ### **GloVe (Global Vectors for Word Representation)**
 - Explicação sobre GloVe e sua aplicação para capturar relações semânticas entre palavras.
+
+---
+
+## **Aula 07 - Modelagem de Tópicos com LDA**
+### **Exemplo 1: Implementação de LDA em um Corpus de Notícias**
+- Utilização do LDA para identificar tópicos em textos de notícias.
+- Visualização de resultados com a ferramenta pyLDAvis.
+
+### **Exemplo 2: Implementação de LDA com Corpus de Texto**
+- Aplicação do modelo LDA a um corpus textual diversificado, com análise e interpretação de resultados.
+
+---
+
+## **Aula 08 - Introdução ao Machine Learning para PLN**
+### **Exemplo 1: Preparação de Dados e Vetorização com TF-IDF**
+- Explicação e implementação do processo de **vetorização de texto** com **TF-IDF**.
+- Preparação de dados para análise de sentimentos com uma base de frases em português.
+
+### **Exemplo 2: Classificação de Sentimentos em Inglês com TF-IDF, Naive Bayes e SVM**
+- Demonstração de como treinar os modelos **SVM** e **Naive Bayes** para classificação de sentimentos.
+- Avaliação do desempenho dos modelos utilizando **classification_report** e análise das métricas **precisão**, **recall** e **F1-score**.
+
