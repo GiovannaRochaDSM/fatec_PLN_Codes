@@ -98,11 +98,15 @@ Para executar os códigos:
 ---
 
 ## **Aula 08 - Introdução ao Machine Learning para PLN**
-### **Exemplo 1: Preparação de Dados e Vetorização com TF-IDF**
+### **Exemplo 1**: Classificação de Sentimentos com Naive Bayes**
+- Explicação e implementação do processo de classificação usando um corpus simples de frases em português.
+- O modelo utiliza Naive Bayes para prever sentimentos (positivo ou negativo) e inclui pré-processamento do texto, cálculo de probabilidades a priori e condicionais, e a classificação de novas frases.
+
+### **Exemplo 2**: Classificação de Sentimentos com SVM e TF-IDF**
 - Explicação e implementação do processo de **vetorização de texto** com **TF-IDF**.
 - Preparação de dados para análise de sentimentos com uma base de frases em português.
 
-### **Exemplo 2: Classificação de Sentimentos em Inglês com TF-IDF, Naive Bayes e SVM**
+### **Exemplo 3: Classificação de Sentimentos em Inglês com TF-IDF, Naive Bayes e SVM**
 - Demonstração de como treinar os modelos **SVM** e **Naive Bayes** para classificação de sentimentos.
 - Avaliação do desempenho dos modelos utilizando **classification_report** e análise das métricas **precisão**, **recall** e **F1-score**.
 
